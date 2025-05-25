@@ -16,7 +16,7 @@ public class util {
         try {
             Thread.sleep(ms);
         } catch (InterruptedException e) {
-            Thread.currentThread().interrupt(); // best practice
+            Thread.currentThread().interrupt();
         }
     }
 }
